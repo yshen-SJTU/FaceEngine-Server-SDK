@@ -4,11 +4,6 @@ A group of libraries for face detection and recognition that provide following f
 - Simple C and Java APIs
 - Easy to use and integrate
 
-
-
-
-- Support terminal device (Android armeabi-v7a, arm64-v8a and x86)
-
 ## More About FaceEngine Server SDK
 Face detection and recognition are increasingly being used to different applications. Some of cloud operators provide face-recognition SaaS, and applications rent the service and submit their images to clouds for face features. FaceEngine Server SDK makes applicatons be capable to set up (develop and deploy) a face-recognition server easily and keep all data (images) locally. We also share our face engine libraries for terminal device. Please refer to FaceEngine Android.
 
