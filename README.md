@@ -350,16 +350,17 @@ public class FaceEngine {
 There are only four API functions in the class FaceEngine. About their parameters and returns, please refer to ["The C APIs of FaceEngine server SDK"](#CAPI).
 
 
-## The Development Team
-
-FaceEngine is a cooperation between Shanghai Jiao Tong University and XCAAN with several researchers, engineers and students contributing to it.
-
 
 ## License
 
 The SDK can be used for any personal or commercial purpose. The network models embedded in the SDK will be expired and upgraded by Sept. 2024. 
 
 The SDK is distributed 'as is' and with no warranties of any kind, whether express or implied. The user must assume the entire risk of using the SDK, and the development team won't be held responsible for any problem in your using the SDK.
+
+
+## The Development Team
+
+FaceEngine is a cooperation between Shanghai Jiao Tong University and XCAAN with several researchers, engineers and students contributing to it.
 
 Please contact <yshen@cs.sjtu.edu.cn> if you have problems about using the SDK. Any technical exchange and cooperation are welcomed.
 
