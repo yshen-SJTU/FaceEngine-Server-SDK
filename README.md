@@ -12,12 +12,16 @@ Face detection and recognition are increasingly being used to different applicat
 ## Deployment
 The SDK is for platform of Ubuntu server 20.04 or later. There are two types of deployments for using FaceEngine Server SDK. The difference is that, for both CPU and GPU servers, the "DYN" deployment needs libtorch while the "STATIC" deployment does not.
 
-| Deployment type | Server | FaceEngine library file               | Libtorch     | 
-|:----------------|:------:|:--------------------------------------|:-------------|
-| DNY             | CPU    | lib/dyn/CPU/libxcaan_faceengine.so    | required     |
-|                 | GPU    | lib/dyn/GPU/libxcaan_faceengine.so    | required     | 
-| STATIC          | CPU    | lib/static/CPU/libxcaan_faceengine.so | not required |
-|                 | GPU    | lib/static/GPU/libxcaan_faceengine.so | not required |
+| Deployment type | Server | FaceEngine library file               | Volume  | Libtorch     | 
+|:----------------|:------:|:--------------------------------------|:--------|:-------------|
+| DNY             | CPU    | lib/dyn/CPU/libxcaan_faceengine.so    | 89 MB   | required     |
+|                 | GPU    | lib/dyn/GPU/libxcaan_faceengine.so    | 101 MB  | required     | 
+| STATIC          | CPU    | lib/static/CPU/libxcaan_faceengine.so | 770 MB  | not required |
+|                 | GPU    | lib/static/GPU/libxcaan_faceengine.so | 915 MB  | not required |
+
+<font color="#dd0000"> ** We suggest that you download the above library files from <a href="https://pan.baidu.com/s/1dc756nJc8nyASfv-JZHdqg">Baidu cloud (code: sjtu)</a> since they've exceeded the Git LFS storage quota and may be incorrect. **</font>
+
+
 
 ### Steps of the DYN deployment
 
