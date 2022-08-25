@@ -359,7 +359,7 @@ The SDK is distributed 'as is' and with no warranties of any kind, whether expre
 
 ## The Development Team
 
-FaceEngine is a cooperation between Shanghai Jiao Tong University and XCAAN with several researchers, engineers and students contributing to it.
+FaceEngine is a cooperation between Shanghai Jiao Tong University and XCAAN with several engineers and students contributing to it.
 
 Please contact <yshen@cs.sjtu.edu.cn> if you have problems about using the SDK. Any technical exchange and cooperation are welcomed.
 
